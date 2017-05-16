@@ -34,3 +34,9 @@ Q-less was awarded the first prize in Bosch Buildings of Tomorrow Hackathon 2017
   Recommendations can be made using user's order history.
 </p>
 
+## Libraries Used
+<ul>
+<li><a href="https://github.com/greenrobot/EventBus">greenrobot's EventBus</a></li>
+<li><a href="http://square.github.io/okhttp/">OkHttp</a></li>
+<li><a href="http://square.github.io/picasso/">Picasso</a></li>
+</ul>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d2852</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="list_item_profile_text_background">#BFFFFFFF</color>
+
+    <color name="crowd_level_2">#D50000</color>
+    <color name="crowd_level_1">#FF6D00</color>
+    <color name="crowd_level_0">#1B5E20</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+</resources>

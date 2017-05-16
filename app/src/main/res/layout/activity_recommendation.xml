@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kianboon.android.bosch.RecommendationActivity">
+
+    <TextView
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:background="#FF5722"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Recommendations!"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/recommendations_store_picture"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/recommendations_store_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:fontFamily="sans-serif-condensed">
+    </TextView>
+
+    <TextView
+        android:id="@+id/recommendations_desc"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:gravity="left"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_gravity="bottom"
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:background="@color/green"
+        android:id="@+id/order_recommendation_button"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Order Now"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
